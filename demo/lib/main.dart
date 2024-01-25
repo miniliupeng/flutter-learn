@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'guess/guess_page.dart';
+import 'muyu/muyu_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GuessPage(title: '猜数字'),
+      home: const MuyuPage(),
     );
   }
 }
